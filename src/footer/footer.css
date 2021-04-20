@@ -1,0 +1,25 @@
+.page_footer {
+  height: 100px;
+  width: 100%;
+  background: #4b6ee8;
+}
+.page_footer_content {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  align-items: center;
+  height: 100%;
+}
+.page_footer_content_wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+  color: #fff;
+}
+.page_footer_content_wrapper_terms a, .page_footer_content_wrapper_rules a, .page_footer_content_wrapper_policy a {
+  font-size: 12px;
+  color: #fff;
+}
+.page_footer_logo {
+  height: 45px;
+}

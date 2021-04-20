@@ -1,0 +1,181 @@
+.main_content{
+	width: 100%;
+	display: flex;
+		
+		&_sidebar {
+			border-right: 1px solid #e1e1e1;
+				
+				&_nav {
+					width: 406px;
+					padding: 71px 40px 0 80px;
+					color: #fff;
+				}
+				&_nav a {
+					padding: 16px 0 16px 0;
+					text-decoration: none;
+					font-size: 18px;
+					color: #000;
+					display: block;
+				}
+				&_nav a:hover {
+					color: #000;
+				}
+				&_nav_active{
+					font-weight: bold;
+				}
+				&_nav_horizont {
+					width: 285px;
+					border-top: 1px solid #e1e1e1;
+				}
+		}
+		&_article{
+			flex-grow: 1;
+			
+				&_filter {
+				margin: 70px 100px 0 40px;
+
+					&_kindergarden {
+						display: flex;
+						justify-content: space-between;
+						align-items: center;
+					}
+					&_kindergarden_numberAddres_number {
+						display: flex;
+					}
+					&_kindergarden_numberAddres_number_para{
+						padding: 7px 16px 15px 0;
+					}
+					&_kindergarden_numberAddres_number_select{
+						border: 1px solid #000;
+						margin-bottom: 10px;
+							& select {
+								width: 179px;
+								height: 27px;
+							}
+					}
+					&_kindergarden_numberAddres_addres {
+						display: flex;
+
+							&_para{
+								padding-right: 12px;
+							}
+							&_para2{
+								font-weight: bold;
+							}
+					}
+					&_kindergarden_button {
+							& button {
+								width: 179px;
+								height: 32px;
+								background: #4B6EE8;
+								border-radius: 2px;
+								margin-right: 102px;
+								color: #fff;
+								font-family: Montserrat;
+								font-size: 14px;
+							}
+					}
+					&_nameGroup {
+						display: flex;
+
+							&_name {
+								padding-top: 25px;
+									&_para{	
+										padding-bottom: 15px;
+									}
+									&_checkDescription{
+										display: inline;
+										padding-left: 6px;
+									}
+									&_input{
+										display: block;
+										width: 190px;
+										height: 27px;
+										border: 1px solid #000;
+										margin-top: 10px;
+									}
+							}
+							&_group {
+								margin: 53px 0 0 91px;
+
+									&_checkDescription{
+										display: inline;
+										padding-left: 6px;	
+									}
+									&_select{
+										border: 1px solid #000;
+										margin-top: 10px;
+											& select {
+												width: 179px;
+												height: 27px;
+											}
+									}
+							}
+					}
+				}
+			&_table{
+				width: 794px;
+				height: 670px;
+				border: 1px solid #000;
+				margin : 100px 0 70px 40px;
+				overflow: hidden;
+
+					&_header {
+						height: 45px;
+						background: #4B5BE8;
+						display: flex;
+						justify-content: space-between;
+						color: #fff;
+						padding-top: 15px;
+
+							&_number{
+								padding-left:20px;
+							}
+							&_date{}
+							&_description{}
+							&_sum{}
+							&_from{}
+							&_input{
+								padding-right:20px;
+							}
+					}
+					&_content{
+						display: flex;
+						justify-content: space-between;
+						padding-top: 10px;
+
+							&_number{
+								padding-left:20px;
+								text-align: right;
+							}
+							&_date{}
+							&_description{}
+							&_sum{}
+							&_from{}
+							&_input{
+								padding-right:20px;
+
+									&_text{
+										display: block;
+										width: 100px;
+										height: 15px;
+										border: 1px solid #000;
+										margin-bottom: 3px;
+									}
+									&_check{
+									}
+									&_button{
+										width: 60px;
+										height: 15px;
+										background: #4B6EE8;
+										border-radius: 2px;
+										color: #fff;
+										font-family: Montserrat;
+										font-size: 14px;
+										margin-left: 10px;
+									}
+							}
+					}
+			}
+		}	
+};

@@ -1,0 +1,7 @@
+@import "../style.css/reset.css";
+@import "../header/header.css";
+@import "../main/main.css";
+@import "../footer/footer.css";
+body {
+  font-family: "Montserrat", sans-serif;
+}
